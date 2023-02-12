@@ -7,14 +7,16 @@ module.exports = {
       { text: 'vue心得', 
       items: [
         { text: 'vue源码解析', link: '/vue/source/' },
-        { text: 'vue常见问题', link: '/vue/issue/' }
+        { text: 'vue常见问题', link: '/vue/issue/' },
+        { text: '前端单元测试', link: '/jest/install/'}
       ]},
       { text: 'External', link: 'https://google.com' },
     ],
-    sidebar: [
-      '/',
-      '/vue',
-      ['/page-b', 'Explicit link text']
-    ]
+    sidebar: {
+      '/jest/': [
+        'install/',
+        'programmer/'
+      ]
+    }
   },
 }
